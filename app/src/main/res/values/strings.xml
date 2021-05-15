@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Finds a Way</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="registerNow">Register Now!</string>
+    <string name="username">Username</string>
+    <string name="logo_route">This is the logo of TheRoute</string>
+    <string name="todo">TODO</string>
+    <string name="password1">Password</string>
+    <string name="e_mail1">E-mail</string>
+    <string name="login">login</string>
+    <string name="register">Register</string>
+    <string name="check">Already have an account?</string>
+    <string name="forgetPassword">forget your password?</string>
+    <string name="main_page_logo">This is the logo of Maiin page</string>
+    <string name="openmap">See on Map?</string>
+    <string name="route_options">This is logo for route options</string>
+    <string name="main_logo">This is the logo of mainpage</string>
+    <string-array name="Destinationoptions">
+        <item>Chandragiri</item>
+        <item>Sundralijal</item>
+        <item>Sanga</item>
+        <item>Ratnapark</item>
+        <item>Champadevi</item>
+        <item>Kalnki</item>
+        <item>Pilot Baba</item>
+        <item>Doleswor Mahadev</item>
+        <item>Nagarkot</item>
+        <item>Dhulikhel</item>
+    </string-array>
+    <string-array name="busOptionsForChandragiri">
+        <item>Thankot</item>
+        <item>Kalanki</item>
+        <item>Kalimati</item>
+        <item>purano buspark</item>
+        <item>ratnapark</item>
+        <item>koteswor</item>
+        <item>Lagankhel</item>
+        <item>naya buspark</item>
+    </string-array>
+    <string-array name="busOptionsForSundarijal">
+        <item>purano buspark</item>
+        <item>naya buspark</item>
+        <item>ratnapark</item>
+        <item>Chakrapat</item>
+        <item>Koteshwor</item>
+        <item>Gausala</item>
+    </string-array>
+    <string-array name="busOptionsForSanga">
+        <item>kamalpokhari,bhaktapur</item>
+        <item>purano buspark</item>
+        <item>naya buspark</item>
+        <item>ratnapark</item>
+        <item>koteswor</item>
+        <item>Lagankhel</item>
+        <item>Baneshwor</item>
+        <item>MaitiGhar</item>
+    </string-array>
+    <string-array name="busOptionsForRatnaPark">
+        <item>Koteswor</item>
+        <item>Baneshwor</item>
+        <item>Lagankhel</item>
+        <item>Kalnki</item>
+        <item>kalimati</item>
+        <item>balkhu</item>
+    </string-array>
+    <string-array name="busOptionsForChampadevi">
+        <item>Lagankhel</item>
+        <item>purano buspark</item>
+        <item>EkantaKuna</item>
+        <item>ratnapark</item>
+    </string-array>
+    <string-array name="busOptionsForKalanki">
+        <item>kalimati</item>
+        <item>purano buspark</item>
+        <item>naya buspark</item>
+        <item>ratnapark</item>
+        <item>Baneshwor</item>
+        <item>Tikathali</item>
+        <item>Pepsicola</item>
+    </string-array>
+    <string-array name="busOptionsForPilotBaba">
+        <item>KamalPhokari,bhktr</item>
+        <item>purano buspark</item>
+        <item>Koteswor</item>
+        <item>ratnapark</item>
+        <item>Baneshwor</item>
+        <item>Suryabinayek</item>
+    </string-array>
+    <string-array name="busOptionsForDoleshworMahadev">
+        <item>KamalPhokari,bhktr</item>
+        <item>purano buspark</item>
+        <item>Koteswor</item>
+        <item>ratnapark</item>
+        <item>Baneshwor</item>
+        <item>Suryabinayek</item>
+    </string-array>
+    <string-array name="busOptionsForNagarkot">
+        <item>KamalPhokari,bhktr</item>
+    </string-array>
+    <string-array name="busOptionsForDhulikhel">
+        <item>kamalpokhari,bhaktapur</item>
+        <item>purano buspark</item>
+        <item>naya buspark</item>
+        <item>ratnapark</item>
+        <item>koteswor</item>
+        <item>Lagankhel</item>
+        <item>Baneshwor</item>
+        <item>MaitiGhar</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_choose_your_bus">Options For You</string>
+</resources>
