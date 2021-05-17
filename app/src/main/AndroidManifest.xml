@@ -45,16 +45,18 @@
             tools:targetApi="lollipop" />
         <activity android:name=".LogInActivity"
             android:banner="@color/background"
-            tools:targetApi="lollipop">
+            tools:targetApi="lollipop" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".RegisterActivity"
             android:banner="@color/background"
             tools:targetApi="lollipop" />
+
         <activity android:name=".MainActivity"
             android:banner="@color/background"
             tools:targetApi="lollipop" />

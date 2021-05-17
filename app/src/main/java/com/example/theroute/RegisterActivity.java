@@ -3,6 +3,7 @@ package com.example.theroute;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
@@ -21,7 +22,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class RegisterActivity extends AppCompatActivity {
     EditText username,email,password;
-    TextView message;
+    TextView message,messagess;
     Button registerbutton;
     ProgressDialog dialog;
     private FirebaseAuth auth;
@@ -34,6 +35,7 @@ public class RegisterActivity extends AppCompatActivity {
         email=findViewById(R.id.textEmail);
         password=findViewById(R.id.password);
         message=findViewById(R.id.messages);
+        messagess=findViewById(R.id.messagess);
         registerbutton =findViewById(R.id.regiserbutton);
         auth=FirebaseAuth.getInstance();
         dat=FirebaseDatabase.getInstance();
@@ -42,6 +44,7 @@ public class RegisterActivity extends AppCompatActivity {
         dialog.setMessage("Creating User...");
         dialog.setCancelable(false);
         registerbutton.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 String emailCheck=email.getText().toString();
@@ -55,6 +58,15 @@ public class RegisterActivity extends AppCompatActivity {
                 else{
                     dialog.show();
                     createUser(emailCheck,passwordCheck);
+                    messagess.setText("We welcome you to Our family\n"+userCheck+"\n Proceed to LogIn?");
+                    messagess.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent=new Intent(RegisterActivity.this,LogInActivity.class);
+                            startActivity(intent);
+                            finish();
+                        }
+                    });
                 }
 
             }

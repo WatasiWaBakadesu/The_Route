@@ -11,6 +11,7 @@
     <string name="login">login</string>
     <string name="register">Register</string>
     <string name="check">Already have an account?</string>
+    <!--<string name="checked">Proceed to login?</string>-->
     <string name="forgetPassword">forget your password?</string>
     <string name="main_page_logo">This is the logo of Maiin page</string>
     <string name="openmap">See on Map?</string>
