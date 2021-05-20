@@ -35,7 +35,8 @@
             android:label="@string/title_activity_maps"
             android:banner="@color/background"
             android:parentActivityName=".ChooseYourBus"
-            tools:targetApi="lollipop">
+            tools:targetApi="lollipop"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         </activity>
         <activity android:name=".ChooseYourBus"

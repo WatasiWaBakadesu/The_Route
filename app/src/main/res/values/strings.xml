@@ -51,7 +51,7 @@
         <item>Gausala</item>
     </string-array>
     <string-array name="busOptionsForSanga">
-        <item>kamalpokhari,bhaktapur</item>
+        <item>kamalvinayek,bhaktapur</item>
         <item>purano buspark</item>
         <item>naya buspark</item>
         <item>ratnapark</item>
@@ -84,7 +84,7 @@
         <item>Pepsicola</item>
     </string-array>
     <string-array name="busOptionsForPilotBaba">
-        <item>KamalPhokari,bhktr</item>
+        <item>kamalvinayek,bhaktapur</item>
         <item>purano buspark</item>
         <item>Koteswor</item>
         <item>ratnapark</item>
@@ -103,7 +103,7 @@
         <item>KamalPhokari,bhktr</item>
     </string-array>
     <string-array name="busOptionsForDhulikhel">
-        <item>kamalpokhari,bhaktapur</item>
+        <item>kamalvinayek,bhaktapur</item>
         <item>purano buspark</item>
         <item>naya buspark</item>
         <item>ratnapark</item>
